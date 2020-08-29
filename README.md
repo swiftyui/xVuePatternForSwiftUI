@@ -3,9 +3,10 @@
 Vue.js pattern implementations on SwiftUI
 
 - Watch
-- data
+- Property
+- Data (@State)
 - computed
 - Vuex/Redux
-- Context
-- View communications
+- Context/Global
+- View communications and Emit/Refs
 - etc.
