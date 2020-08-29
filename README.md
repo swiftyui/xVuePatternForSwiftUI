@@ -1,3 +1,11 @@
 # xVuePatternForSwiftUI
 
-Vue.js Patterns implementations on SwiftUI
+Vue.js pattern implementations on SwiftUI
+
+- Watch
+- data
+- computed
+- Vuex/Redux
+- Context
+- View communications
+- etc.
