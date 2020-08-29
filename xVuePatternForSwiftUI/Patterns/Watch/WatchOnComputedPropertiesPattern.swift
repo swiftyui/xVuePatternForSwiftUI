@@ -1,5 +1,5 @@
 //
-//  WillDidSetDemo.swift
+//  WatchOnComputedPropertiesPattern.swift
 //
 //  Created by LW on 29/8/20.
 //
@@ -7,6 +7,8 @@
 import SwiftUI
 
 struct ToggleModel {
+    
+    //Computed property
     var isWifiOpen: Bool = true {
         willSet {
             print("wifi status will change")
@@ -14,7 +16,7 @@ struct ToggleModel {
     }
 }
 
-struct WillDidSetDemo: View {
+struct WatchOnComputedPropertiesPattern: View {
     @State var model = ToggleModel()
 
     var body: some View {
@@ -25,12 +27,13 @@ struct WillDidSetDemo: View {
             }
        }.accentColor(.pink)
        .padding()
+        .navigationTitle("Via willSet/didSet")
    }
 }
 
 
-struct WillDidSetDemo_Previews: PreviewProvider {
+struct WatchOnComputedPropertiesPattern_Previews: PreviewProvider {
     static var previews: some View {
-        WillDidSetDemo()
+        WatchOnComputedPropertiesPattern()
     }
 }

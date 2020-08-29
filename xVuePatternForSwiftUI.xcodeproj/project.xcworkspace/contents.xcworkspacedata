@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Volumes/SwiftUI/download/xWatch/xWatch.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>

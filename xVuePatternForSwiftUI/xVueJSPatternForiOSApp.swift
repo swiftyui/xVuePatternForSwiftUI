@@ -7,10 +7,11 @@
 import SwiftUI
 
 @main
-struct xWatchApp: App {
+struct xVueJSPatternForiOSApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(DelayedUpdater())
         }
     }
 }

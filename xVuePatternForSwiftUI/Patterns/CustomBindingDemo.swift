@@ -17,6 +17,7 @@ struct CustomBindingDemo: View {
             )
 
             return  List {
+                Text("Please check console output")
                 TextField("Text", text: binding)
             }
         }

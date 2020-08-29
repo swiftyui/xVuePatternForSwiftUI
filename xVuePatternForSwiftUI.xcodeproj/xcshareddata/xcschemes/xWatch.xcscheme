@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3AD26E5024E7B1AE00A95412"
-               BuildableName = "xWatch.app"
-               BlueprintName = "xWatch"
-               ReferencedContainer = "container:xWatch.xcodeproj">
+               BuildableName = "xVuePatternForSwiftUI.app"
+               BlueprintName = "xVuePatternForSwiftUI"
+               ReferencedContainer = "container:xVuePatternForSwiftUI.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3AD26E5024E7B1AE00A95412"
-            BuildableName = "xWatch.app"
-            BlueprintName = "xWatch"
-            ReferencedContainer = "container:xWatch.xcodeproj">
+            BuildableName = "xVuePatternForSwiftUI.app"
+            BlueprintName = "xVuePatternForSwiftUI"
+            ReferencedContainer = "container:xVuePatternForSwiftUI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3AD26E5024E7B1AE00A95412"
-            BuildableName = "xWatch.app"
-            BlueprintName = "xWatch"
-            ReferencedContainer = "container:xWatch.xcodeproj">
+            BuildableName = "xVuePatternForSwiftUI.app"
+            BlueprintName = "xVuePatternForSwiftUI"
+            ReferencedContainer = "container:xVuePatternForSwiftUI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

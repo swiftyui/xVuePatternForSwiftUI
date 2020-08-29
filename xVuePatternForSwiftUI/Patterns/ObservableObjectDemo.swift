@@ -18,7 +18,7 @@ class DelayedUpdater: ObservableObject {
 
     init() {
         for i in 1...10 {
-            DispatchQueue.main.asyncAfter(deadline: .now() + Double(i)) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3 + Double(i)) {
                 self.value1 += 1
                 self.value2 += 1
             }
@@ -27,7 +27,7 @@ class DelayedUpdater: ObservableObject {
 }
 
 struct ObservableObjectDemo: View {
-    @ObservedObject var updater = DelayedUpdater()
+    @EnvironmentObject var updater: DelayedUpdater
 
         var body: some View {
             VStack {
@@ -39,8 +39,3 @@ struct ObservableObjectDemo: View {
         }
 }
 
-struct ObservableObjectDemo_Previews: PreviewProvider {
-    static var previews: some View {
-        ObservableObjectDemo()
-    }
-}

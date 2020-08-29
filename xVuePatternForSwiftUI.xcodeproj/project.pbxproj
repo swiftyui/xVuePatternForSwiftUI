@@ -3,33 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3AD26E5524E7B1AE00A95412 /* xWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD26E5424E7B1AE00A95412 /* xWatchApp.swift */; };
+		3AD26E5524E7B1AE00A95412 /* xVueJSPatternForiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD26E5424E7B1AE00A95412 /* xVueJSPatternForiOSApp.swift */; };
 		3AD26E5724E7B1AE00A95412 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD26E5624E7B1AE00A95412 /* ContentView.swift */; };
 		3AD26E5924E7B1AF00A95412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AD26E5824E7B1AF00A95412 /* Assets.xcassets */; };
 		3AD26E5C24E7B1AF00A95412 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AD26E5B24E7B1AF00A95412 /* Preview Assets.xcassets */; };
-		3AD26E6424E7B1DB00A95412 /* OnChangeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD26E6324E7B1DB00A95412 /* OnChangeDemo.swift */; };
 		3AD26E6624E7B33A00A95412 /* ObservableObjectDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD26E6524E7B33A00A95412 /* ObservableObjectDemo.swift */; };
-		3AD26E6A24E7BE7900A95412 /* ObservableStateDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD26E6924E7BE7900A95412 /* ObservableStateDemo.swift */; };
 		3AD26E6C24E7BF5B00A95412 /* CustomBindingDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD26E6B24E7BF5B00A95412 /* CustomBindingDemo.swift */; };
-		3AD26E6E24E7C05900A95412 /* WillDidSetDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD26E6D24E7C05900A95412 /* WillDidSetDemo.swift */; };
+		3AD26E6E24E7C05900A95412 /* WatchOnComputedPropertiesPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD26E6D24E7C05900A95412 /* WatchOnComputedPropertiesPattern.swift */; };
+		AE19AEAD24FA22B6005A3A5A /* WatchPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE19AEAC24FA22B6005A3A5A /* WatchPattern.swift */; };
+		AE19AEAF24FA2398005A3A5A /* ChangeObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE19AEAE24FA2398005A3A5A /* ChangeObserver.swift */; };
+		AE19AEB124FA28C0005A3A5A /* OnChangeWatchPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE19AEB024FA28C0005A3A5A /* OnChangeWatchPattern.swift */; };
+		AE19AEB324FA2923005A3A5A /* ObserableStateWatchPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE19AEB224FA2923005A3A5A /* ObserableStateWatchPattern.swift */; };
+		AE19AEB624FA29AA005A3A5A /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = AE19AEB524FA29AA005A3A5A /* SwiftUIX */; };
+		AE78E1A724FA4E7F003C1C09 /* SwiftUISpecialPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78E1A624FA4E7F003C1C09 /* SwiftUISpecialPattern.swift */; };
+		AE78E1A924FA5092003C1C09 /* LifeCyclePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78E1A824FA5092003C1C09 /* LifeCyclePattern.swift */; };
+		AE78E1AE24FA5615003C1C09 /* ComponentCommunicationPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78E1AD24FA5615003C1C09 /* ComponentCommunicationPattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3AD26E5124E7B1AE00A95412 /* xWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AD26E5424E7B1AE00A95412 /* xWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xWatchApp.swift; sourceTree = "<group>"; };
+		3AD26E5124E7B1AE00A95412 /* xVuePatternForSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xVuePatternForSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD26E5424E7B1AE00A95412 /* xVueJSPatternForiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xVueJSPatternForiOSApp.swift; sourceTree = "<group>"; };
 		3AD26E5624E7B1AE00A95412 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3AD26E5824E7B1AF00A95412 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AD26E5B24E7B1AF00A95412 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3AD26E5D24E7B1AF00A95412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3AD26E6324E7B1DB00A95412 /* OnChangeDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChangeDemo.swift; sourceTree = "<group>"; };
 		3AD26E6524E7B33A00A95412 /* ObservableObjectDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjectDemo.swift; sourceTree = "<group>"; };
-		3AD26E6924E7BE7900A95412 /* ObservableStateDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableStateDemo.swift; sourceTree = "<group>"; };
 		3AD26E6B24E7BF5B00A95412 /* CustomBindingDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBindingDemo.swift; sourceTree = "<group>"; };
-		3AD26E6D24E7C05900A95412 /* WillDidSetDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WillDidSetDemo.swift; sourceTree = "<group>"; };
+		3AD26E6D24E7C05900A95412 /* WatchOnComputedPropertiesPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchOnComputedPropertiesPattern.swift; sourceTree = "<group>"; };
+		AE19AEAC24FA22B6005A3A5A /* WatchPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchPattern.swift; sourceTree = "<group>"; };
+		AE19AEAE24FA2398005A3A5A /* ChangeObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeObserver.swift; sourceTree = "<group>"; };
+		AE19AEB024FA28C0005A3A5A /* OnChangeWatchPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChangeWatchPattern.swift; sourceTree = "<group>"; };
+		AE19AEB224FA2923005A3A5A /* ObserableStateWatchPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserableStateWatchPattern.swift; sourceTree = "<group>"; };
+		AE78E1A624FA4E7F003C1C09 /* SwiftUISpecialPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISpecialPattern.swift; sourceTree = "<group>"; };
+		AE78E1A824FA5092003C1C09 /* LifeCyclePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCyclePattern.swift; sourceTree = "<group>"; };
+		AE78E1AD24FA5615003C1C09 /* ComponentCommunicationPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentCommunicationPattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE19AEB624FA29AA005A3A5A /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,7 +58,7 @@
 		3AD26E4824E7B1AE00A95412 = {
 			isa = PBXGroup;
 			children = (
-				3AD26E5324E7B1AE00A95412 /* xWatch */,
+				3AD26E5324E7B1AE00A95412 /* xVuePatternForSwiftUI */,
 				3AD26E5224E7B1AE00A95412 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,26 +66,23 @@
 		3AD26E5224E7B1AE00A95412 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3AD26E5124E7B1AE00A95412 /* xWatch.app */,
+				3AD26E5124E7B1AE00A95412 /* xVuePatternForSwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3AD26E5324E7B1AE00A95412 /* xWatch */ = {
+		3AD26E5324E7B1AE00A95412 /* xVuePatternForSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				3AD26E5424E7B1AE00A95412 /* xWatchApp.swift */,
+				AE19AEAE24FA2398005A3A5A /* ChangeObserver.swift */,
+				AE19AEA424F9B33F005A3A5A /* Patterns */,
+				3AD26E5424E7B1AE00A95412 /* xVueJSPatternForiOSApp.swift */,
 				3AD26E5624E7B1AE00A95412 /* ContentView.swift */,
-				3AD26E6B24E7BF5B00A95412 /* CustomBindingDemo.swift */,
-				3AD26E6324E7B1DB00A95412 /* OnChangeDemo.swift */,
-				3AD26E6524E7B33A00A95412 /* ObservableObjectDemo.swift */,
-				3AD26E6924E7BE7900A95412 /* ObservableStateDemo.swift */,
-				3AD26E6D24E7C05900A95412 /* WillDidSetDemo.swift */,
 				3AD26E5824E7B1AF00A95412 /* Assets.xcassets */,
 				3AD26E5D24E7B1AF00A95412 /* Info.plist */,
 				3AD26E5A24E7B1AF00A95412 /* Preview Content */,
 			);
-			path = xWatch;
+			path = xVuePatternForSwiftUI;
 			sourceTree = "<group>";
 		};
 		3AD26E5A24E7B1AF00A95412 /* Preview Content */ = {
@@ -84,12 +93,44 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		AE19AEA424F9B33F005A3A5A /* Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				AE78E1AC24FA5609003C1C09 /* Communications */,
+				AE78E1A524FA4B56003C1C09 /* Watch */,
+				3AD26E6B24E7BF5B00A95412 /* CustomBindingDemo.swift */,
+				3AD26E6524E7B33A00A95412 /* ObservableObjectDemo.swift */,
+				AE78E1A624FA4E7F003C1C09 /* SwiftUISpecialPattern.swift */,
+				AE78E1A824FA5092003C1C09 /* LifeCyclePattern.swift */,
+			);
+			path = Patterns;
+			sourceTree = "<group>";
+		};
+		AE78E1A524FA4B56003C1C09 /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				3AD26E6D24E7C05900A95412 /* WatchOnComputedPropertiesPattern.swift */,
+				AE19AEAC24FA22B6005A3A5A /* WatchPattern.swift */,
+				AE19AEB224FA2923005A3A5A /* ObserableStateWatchPattern.swift */,
+				AE19AEB024FA28C0005A3A5A /* OnChangeWatchPattern.swift */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		AE78E1AC24FA5609003C1C09 /* Communications */ = {
+			isa = PBXGroup;
+			children = (
+				AE78E1AD24FA5615003C1C09 /* ComponentCommunicationPattern.swift */,
+			);
+			path = Communications;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3AD26E5024E7B1AE00A95412 /* xWatch */ = {
+		3AD26E5024E7B1AE00A95412 /* xVuePatternForSwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3AD26E6024E7B1AF00A95412 /* Build configuration list for PBXNativeTarget "xWatch" */;
+			buildConfigurationList = 3AD26E6024E7B1AF00A95412 /* Build configuration list for PBXNativeTarget "xVuePatternForSwiftUI" */;
 			buildPhases = (
 				3AD26E4D24E7B1AE00A95412 /* Sources */,
 				3AD26E4E24E7B1AE00A95412 /* Frameworks */,
@@ -99,9 +140,12 @@
 			);
 			dependencies = (
 			);
-			name = xWatch;
+			name = xVuePatternForSwiftUI;
+			packageProductDependencies = (
+				AE19AEB524FA29AA005A3A5A /* SwiftUIX */,
+			);
 			productName = xComputed;
-			productReference = 3AD26E5124E7B1AE00A95412 /* xWatch.app */;
+			productReference = 3AD26E5124E7B1AE00A95412 /* xVuePatternForSwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +162,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3AD26E4C24E7B1AE00A95412 /* Build configuration list for PBXProject "xWatch" */;
+			buildConfigurationList = 3AD26E4C24E7B1AE00A95412 /* Build configuration list for PBXProject "xVuePatternForSwiftUI" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,11 +171,14 @@
 				Base,
 			);
 			mainGroup = 3AD26E4824E7B1AE00A95412;
+			packageReferences = (
+				AE19AEB424FA29AA005A3A5A /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+			);
 			productRefGroup = 3AD26E5224E7B1AE00A95412 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3AD26E5024E7B1AE00A95412 /* xWatch */,
+				3AD26E5024E7B1AE00A95412 /* xVuePatternForSwiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -153,13 +200,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AD26E6424E7B1DB00A95412 /* OnChangeDemo.swift in Sources */,
+				AE19AEB124FA28C0005A3A5A /* OnChangeWatchPattern.swift in Sources */,
 				3AD26E6C24E7BF5B00A95412 /* CustomBindingDemo.swift in Sources */,
 				3AD26E5724E7B1AE00A95412 /* ContentView.swift in Sources */,
 				3AD26E6624E7B33A00A95412 /* ObservableObjectDemo.swift in Sources */,
-				3AD26E5524E7B1AE00A95412 /* xWatchApp.swift in Sources */,
-				3AD26E6E24E7C05900A95412 /* WillDidSetDemo.swift in Sources */,
-				3AD26E6A24E7BE7900A95412 /* ObservableStateDemo.swift in Sources */,
+				3AD26E5524E7B1AE00A95412 /* xVueJSPatternForiOSApp.swift in Sources */,
+				3AD26E6E24E7C05900A95412 /* WatchOnComputedPropertiesPattern.swift in Sources */,
+				AE78E1A724FA4E7F003C1C09 /* SwiftUISpecialPattern.swift in Sources */,
+				AE78E1A924FA5092003C1C09 /* LifeCyclePattern.swift in Sources */,
+				AE19AEAD24FA22B6005A3A5A /* WatchPattern.swift in Sources */,
+				AE78E1AE24FA5615003C1C09 /* ComponentCommunicationPattern.swift in Sources */,
+				AE19AEB324FA2923005A3A5A /* ObserableStateWatchPattern.swift in Sources */,
+				AE19AEAF24FA2398005A3A5A /* ChangeObserver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,9 +340,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"xWatch/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"xVuePatternForSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = xWatch/Info.plist;
+				INFOPLIST_FILE = xVuePatternForSwiftUI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,9 +361,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"xWatch/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"xVuePatternForSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = xWatch/Info.plist;
+				INFOPLIST_FILE = xVuePatternForSwiftUI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -327,7 +379,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3AD26E4C24E7B1AE00A95412 /* Build configuration list for PBXProject "xWatch" */ = {
+		3AD26E4C24E7B1AE00A95412 /* Build configuration list for PBXProject "xVuePatternForSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3AD26E5E24E7B1AF00A95412 /* Debug */,
@@ -336,7 +388,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3AD26E6024E7B1AF00A95412 /* Build configuration list for PBXNativeTarget "xWatch" */ = {
+		3AD26E6024E7B1AF00A95412 /* Build configuration list for PBXNativeTarget "xVuePatternForSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3AD26E6124E7B1AF00A95412 /* Debug */,
@@ -346,6 +398,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AE19AEB424FA29AA005A3A5A /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AE19AEB524FA29AA005A3A5A /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE19AEB424FA29AA005A3A5A /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3AD26E4924E7B1AE00A95412 /* Project object */;
 }

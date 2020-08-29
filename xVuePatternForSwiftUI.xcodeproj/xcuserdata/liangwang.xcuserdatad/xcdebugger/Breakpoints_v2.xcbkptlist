@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "98126D52-2B0C-4D25-817A-A8B7A8E3B487"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16283F7E-6A5D-45B8-910F-9278CB50EEBE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xVueJSPatternForiOS/ChangeObserver.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "16283F7E-6A5D-45B8-910F-9278CB50EEBE - eea1ce5256f516f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xVueJSPatternForiOS.ChangeObserver.body.getter : some"
+                  moduleName = "xVueJSPatternForiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/SwiftUI/download/xWatch/xVueJSPatternForiOS/ChangeObserver.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "658">
+               </Location>
+               <Location
+                  uuid = "16283F7E-6A5D-45B8-910F-9278CB50EEBE - 7d739992e9b1a2cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in xVueJSPatternForiOS.ChangeObserver.body.getter : some"
+                  moduleName = "xVueJSPatternForiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/SwiftUI/download/xWatch/xVueJSPatternForiOS/ChangeObserver.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "476">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
